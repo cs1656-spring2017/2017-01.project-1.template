@@ -21,7 +21,7 @@ Your program should be called as follows:
 `python3 team1 team2 year rain` OR `python3 team1 team2 year snow`   
 For example: `python3 weatherbowl.py steelers patriots 1998 snow`
 
-The information about the NFL team names and the corresponding cities is provided as a CSV file, named `NFL_data.csv`, which is included in this repository. Note that you should be matching even part of the team name, provided there is a single match, otherwise it would return an error message. For example, `Pit` or 'pitt' or `Pittsburgh` or `Steelers` should all match `Pittburgh Steelers` and lead to using KPIT for the weather data. You should also ignore case.
+The information about the NFL team names and the corresponding cities is provided as a CSV file, named `NFL_data.csv`, which is included in this repository. Note that you should be matching even part of the team name, provided there is a single match, otherwise it would return an error message. For example, `Pit` or `pitt` or `Pittsburgh` or `Steelers` should all match `Pittburgh Steelers` and lead to using KPIT for the weather data. You should also ignore case.
 
 You should get the WeatherUnderground weather data using their historical data interface, e.g., 
 `https://www.wunderground.com/history/airport/KPIT/2016/1/1/MonthlyHistory.html?format=1`
