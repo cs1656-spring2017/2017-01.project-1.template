@@ -36,7 +36,7 @@ Your program should report:
 * the winning team, and  
 * the percent of win (i.e., if W is the total precipitation of the winning team, L is the total precipitation of the losing team, you need to report 100 * (W / L - 1)     
  
-Here's sample output, to indicate the format:
+Here is an example of the proper output format (only used to indicate the format, the precipitation amounts are fictitious):
 ```
 YEAR: 1850
 TYPE: snow 
@@ -60,7 +60,7 @@ Failure in any of the above will result in **severe** point loss.
 
 
 ### Allowed Python Libraries
-You are allowed to use the following Python libraries:
+You are allowed to use the following Python libraries (although a fraction of these will actually be needed):
 ```
 argparse
 collections
@@ -70,6 +70,7 @@ math
 os
 pandas
 re
+requests
 string
 sys
 ```
